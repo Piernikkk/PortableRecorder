@@ -3,7 +3,7 @@ import React from 'react';
 
 import { TabBar } from '@/lib/components/TabBar';
 import { TabButton } from '@/lib/components/TabBar/TabButton';
-import { IconHome, IconLayoutGrid } from '@tabler/icons-react-native';
+import { IconLayoutGrid, IconMicrophone } from '@tabler/icons-react-native';
 
 export default function TabLayout() {
 
@@ -15,8 +15,8 @@ export default function TabLayout() {
           <TabBar>
             <TabTrigger name="(main)" href="/" style={{ flex: 1 }} asChild>
               <TabButton
-                icon={IconHome}
-                label='Home'
+                icon={IconMicrophone}
+                label='Record'
               />
             </TabTrigger>
             <TabTrigger name="library" href="/library" style={{ flex: 1 }} asChild>
