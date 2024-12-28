@@ -20,13 +20,14 @@ export const Colors = {
     tabIconDefault: '#687076',
     tabIconSelected: tintColorLight,
     recordButtonBack: '#fff',
-    recordButtonCenter: '#c41f1f'
+    recordButtonCenter: '#f22625ee',
+    border: '#ffffff99'
   },
   dark: {
     text: [
       '#ECEDEE',
+      '#ECEDEE99',
       '#ECEDEE80',
-      '#ECEDEE60',
     ],
     background: '#0A0A0B',
     tint: tintColorDark,
@@ -35,6 +36,7 @@ export const Colors = {
     tabIconDefault: '#9BA1A6',
     tabIconSelected: tintColorDark,
     recordButtonBack: '#fff',
-    recordButtonCenter: '#f22625ee'
+    recordButtonCenter: '#f22625ee',
+    border: '#ffffff40'
   },
 };

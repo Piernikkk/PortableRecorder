@@ -8,7 +8,7 @@ export default function RecordingIndicator() {
     const styles = useMemo(() => StyleSheet.create({
         container: {
             height: 500,
-            width: 20,
+            width: 15,
             backgroundColor: colors.recordButtonBack,
             borderRadius: 20,
             position: 'relative',
