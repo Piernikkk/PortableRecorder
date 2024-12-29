@@ -47,6 +47,7 @@ export default function Library() {
             </View>
             <FlatList
                 data={testList}
+                style={styles.flatlist}
                 keyExtractor={(item) => item.date.toString() + item.take.toString()}
                 renderItem={({ item, index }) => <ListElement take={item.take} date={item.date} duration={item.duration} borderTop={index == 0} name={item.name} />}
             />
@@ -61,5 +62,8 @@ const styles = StyleSheet.create({
     },
     searchContainer: {
         padding: 10,
+    },
+    flatlist: {
+        height: '100%',
     }
 })

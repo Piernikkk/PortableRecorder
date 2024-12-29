@@ -37,6 +37,6 @@ export const Colors = {
     tabIconSelected: tintColorDark,
     recordButtonBack: '#fff',
     recordButtonCenter: '#f22625ee',
-    border: '#ffffff40'
+    border: '#ffffff20'
   },
 };

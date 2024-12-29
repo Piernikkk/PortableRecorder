@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@stoprocent/bleno": "^0.8.2"
+  }
+}

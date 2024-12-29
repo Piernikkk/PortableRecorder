@@ -33,6 +33,7 @@ export default function ListElement({ name, duration, borderTop, take, date }: L
         description: {
             display: 'flex',
             flexDirection: 'column',
+            gap: 5,
         }
     }), [colors.border]);
 
